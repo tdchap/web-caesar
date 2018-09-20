@@ -24,7 +24,10 @@ form = """
         </style>
     </head>
     <body>
-      <!-- create your form here -->
+      <form action="/" method="POST">
+          <label for="caesar_text_input">Input text to be encrypted:</label>
+          <input id="caesar_text_input" type ="text" />
+          <textarea id="caesar_text_input" name = "caesar_text_input" rows="3" cols="60">
     </body>
 </html>
 """
