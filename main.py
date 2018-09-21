@@ -26,8 +26,15 @@ form = """
     <body>
       <form action="/" method="POST">
           <label for="caesar_text_input">Input text to be encrypted:</label>
-          <input id="caesar_text_input" type ="text" />
+          <input id="caesar_text_input" type = "text" />
           <textarea id="caesar_text_input" name = "caesar_text_input" rows="3" cols="60">
+
+          <label for="rot">Rotation amount:</label>
+          <input id="rot" type ="text" name ="rot" rows="1" cols="2" value = 0 />
+
+          <input type="submit" value="Caesar me timbers">
+        </form>
+
     </body>
 </html>
 """
